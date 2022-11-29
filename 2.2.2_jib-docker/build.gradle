@@ -35,7 +35,7 @@ jib {
   }
   to {
     image = 'jaeminjang/test-docker-spring-boot'
-    tags = ['1.0.1']
+    tags = ['1.0']
   }
   container {
     entrypoint = ['java', '-Dspring.profiles.active=test', '-jar', 'test-docker-spring-boot-0.0.1-SNAPSHOT.jar']
